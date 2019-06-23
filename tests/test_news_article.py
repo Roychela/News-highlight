@@ -1,4 +1,5 @@
 import unittest
+from app.models import NewsArticles
 class TestNewsArticles(unittest.TestCase):
     '''
     Test class to test the behavior of the articles class
