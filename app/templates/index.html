@@ -1,0 +1,42 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+{% block content%}
+<div class="container-fluid bg">
+    <hr>
+        <div class="row">
+        <div class="col-md-12">
+            <h2>General News Sources</h2>
+        </div>
+        {{macro.displayNewsSourcesList(general)}}
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 >Business News Sources</h2>
+        </div>
+        {{macro.displayNewsSourcesList(business)}}
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Sports News Sources</h2>
+        </div>
+        {{macro.displayNewsSourcesList(sports)}}
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Technology News Sources</h2>
+        </div>
+        {{macro.displayNewsSourcesList(technology)}}
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Entertainment News Sources</h2>
+        </div>
+        {{macro.displayNewsSourcesList(entertainment)}}
+    </div>
+    <hr>
+</div>
+{% endblock %}
