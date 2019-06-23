@@ -1,4 +1,5 @@
 import unittest
+from app.models import NewsSource
 class NewsSourceTest(unittest.TestCase):
     '''
     Test case to test the behavior of the NewsSource class
